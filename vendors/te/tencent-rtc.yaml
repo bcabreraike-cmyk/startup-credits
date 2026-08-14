@@ -8,7 +8,7 @@ domains:
     role: primary
     valid_from: 2026-08-13T19:31:30.000Z
 category: communication
-description: Tencent RTC provides real-time audio and video communication APIs and SDKs for interactive calls, conferences, and live streaming.
+description: Tencent RTC runs a Startups Program for products integrating interactive audio and video features.
 links:
   site: https://trtc.tencentcloud.com
 sources:
@@ -19,7 +19,7 @@ programs:
     program_slug: tencent-rtc-startups-program
     program_slug_aliases: []
     title: Tencent RTC Startups Program
-    summary: The Tencent RTC Startups Program offers eligible startups free product credits for integrating interactive audio and video features.
+    summary: Eligible startups have the chance to get free Tencent RTC credits.
     source_ids:
       - src_ca4a9cd9271e96f755c712db5b133ecb1f5637101da29bbeaf229a52bb0bba8b
 offers:
@@ -28,11 +28,14 @@ offers:
     offer_slug: up-to-3000-in-tencent-rtc-credits
     offer_slug_aliases: []
     title: "Tencent RTC Startups Program: Up to $3,000 in Credits"
-    summary: Eligible startups can receive up to $3,000 in Tencent RTC credits after application review.
+    summary: Eligible startups have the chance to get free Tencent RTC credits worth up to $3,000.
     lifecycle:
       status: active
       effective_from: 2026-08-13T19:31:30.000Z
     economics:
+      consideration:
+        kind: unknown
+        description: The source record did not establish separate consideration.
       benefits:
         - benefit_id: ben_01
           description: Up to $3,000 in Tencent RTC product usage credits
@@ -42,20 +45,12 @@ offers:
               currency: USD
               minor_units: 300000
             kind: up-to
-      consideration:
-        kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: Applicant must be an eligible startup with a product use case for Tencent RTC.
-          - criterion_id: cri_02
-            kind: manual
-            reason: vendor-discretion
-            statement: Tencent RTC reviews the application and responds within 48 hours.
+        kind: manual
+        criterion_id: cri_01
+        statement: Available to eligible startups.
+        reason: not-machine-evaluable
     roles:
       terms_authority_entity_id: ent_drvxr8jkv4wfy28razjzyygzx4
       access_operator_entity_id: ent_drvxr8jkv4wfy28razjzyygzx4
