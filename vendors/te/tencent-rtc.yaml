@@ -56,5 +56,10 @@ offers:
     roles:
       terms_authority_entity_id: ent_drvxr8jkv4wfy28razjzyygzx4
       access_operator_entity_id: ent_drvxr8jkv4wfy28razjzyygzx4
+    access:
+      availability: public
+      method: other
+      instructions: Complete the questionnaire on the Startups Program page to share your use case, scale, and current status.
+      url: https://trtc.tencentcloud.com/start-up
     source_ids:
       - src_ca4a9cd9271e96f755c712db5b133ecb1f5637101da29bbeaf229a52bb0bba8b
